@@ -68,6 +68,13 @@ header {
     list-style-type: none;
     width: fit-content;
 }
+
+.header__burger {
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
 .list-item {
     border-bottom: 2px solid transparent;
     padding-bottom: 28px;
@@ -234,7 +241,17 @@ header {
     gap: 14px;
     position: relative;
 }
+
+.slider__card {
+    display: flex;
+    flex-direction: column;
+}
+
 .slider__info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 20px;
     background-color: #fff;
     position: relative;
