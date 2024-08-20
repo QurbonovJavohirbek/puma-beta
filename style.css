@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -51,6 +52,9 @@ img {
 .btn-black {
     background-color: black;
     color: white;
+}
+.btn-view {
+    display: none;
 }
 
 /* header */
@@ -337,9 +341,8 @@ header {
     background-image: url(images/single-bg.jpg);
     background-size: cover;
     background-position: center;
-    padding-top: 130px;
-    padding-bottom: 130px;
-
+    padding-top: 129px;
+    padding-bottom: 129px;
     margin-bottom: 180px;
 }
 .single__title {
@@ -373,6 +376,9 @@ header {
     font-weight: 500;
     font-size: 24px;
     line-height: 28.64px;
+}
+.variety__title {
+    display: none;
 }
 
 /* Kids section */
