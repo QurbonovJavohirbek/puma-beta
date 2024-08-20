@@ -415,6 +415,9 @@ header {
 }
 
 /* Footer section */
+.mobile-footer {
+    display: none;
+}
 footer {
     background-color: #fff;
     padding-top: 95px;
